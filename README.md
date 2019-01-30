@@ -10,6 +10,7 @@ Idea was to create a method to match the color of multiple skin, without using t
 ## Requirement
 * Set Group=ColorGroup in [Rainmeter] for group bangs to work
 * Meter must use a #color# variable and has DynamicVariables=1
+* [SysColor](https://forum.rainmeter.net/viewtopic.php?t=14202) plugin
 
 HSV to RGB conversion code by [GigsD4X](https://gist.github.com/GigsD4X)
 ## Authors
