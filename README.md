@@ -2,7 +2,7 @@
 Idea was to create a method to match the color of multiple skin, without using too many code.
 
 ## How this skin work
-* Have a single skin with SysColor measure that update windows color.
+* Have a single skin with SysColor measure that update windows color, has no meter visually.
 * Detect color change and convert them to HSV base color, increase the saturation and value for a brighten and preferable color.
 * Convert output color back to RGB and set variable 'color' on group skins.
 * Update skin measure/meter and redraw.
