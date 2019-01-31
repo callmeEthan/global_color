@@ -82,7 +82,7 @@ function split_string(inputstr, sep)
         return t
 end
 
-function update(sat,val)
+function update(sat,val,variable)
 sat=tonumber(sat)
 val=tonumber(val)
   local measure=SKIN:GetMeasure('MeasureColorTrigger')
@@ -94,6 +94,6 @@ val=tonumber(val)
   local h,s,v=RGBToHSV(red,green,blue)
   local r,g,b=HSVToRGB(h,sat,val)
   local output=r..','..g..','..b
-  SKIN:Bang('!SetVariable', 'color', output)
+  SKIN:Bang('!SetVariable', variable, output)
   SKIN:Bang('!UpdateMeasure', 'ColorUpdate')
 end
