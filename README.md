@@ -10,14 +10,14 @@ This is done from a single skin, so you don't need to edit SysColor measure of m
 * Update skin measure/meter and redraw.
 
 ## How to use
-* [SysColor](https://forum.rainmeter.net/viewtopic.php?t=14202) plugin is required (included in the .rmskin file)
+* [SysColor](https://forum.rainmeter.net/viewtopic.php?t=14202) plugin is required (included in the [.rmskin file](https://github.com/callmeEthan/global_color/raw/master/GlobalColor_1.01.rmskin))
 * Firstly edit skin that need color update, under [Rainmeter] set Group=ColorGroup. (or add ColorGroup after "|" if skin already in a group)
 * For meters that have color that need to update, set to use #Color# variable (not necessary predefined) and set DynamicVariables=1
 * Refresh this skin or change system color (whether by changing background).
 
 ## Installation
 * Get rainmeter
-* Download .rmskin for easy install.
+* Download [.rmskin file](https://github.com/callmeEthan/global_color/raw/master/GlobalColor_1.01.rmskin) for easy install.
 
 ## Credit
 HSV to RGB conversion code by [GigsD4X](https://gist.github.com/GigsD4X)
