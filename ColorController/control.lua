@@ -92,7 +92,11 @@ val=tonumber(val)
   local green=tonumber(color[2])
   local blue=tonumber(color[3])
   local h,s,v=RGBToHSV(red,green,blue)
-  local r,g,b=HSVToRGB(h,sat,val)
+
+  if s < sat then s=sat end
+  if v < val then v=val end
+
+  local r,g,b=HSVToRGB(h,s,v)
   local output=r..','..g..','..b
   SKIN:Bang('!SetVariable', variable, output)
   SKIN:Bang('!UpdateMeasure', 'ColorUpdate')
