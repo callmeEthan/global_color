@@ -1,5 +1,5 @@
 # Global controller
-The SysColor plugin can read system color, however often return colors that are too dark or too light.
+The SysColor plugin can read system color, however system aero often return colors that are too dark or too light.
 This skin would convert them back to a more colorful color, and apply to all skins in group ColorGroup (without refreshing those skins).  
 This is done from a single skin, so you don't need to edit SysColor measure of multiple skins.
 
